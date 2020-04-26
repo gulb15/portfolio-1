@@ -1,0 +1,55 @@
+.about-me{
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(to bottom, black, #4b134f, black);
+}
+
+.shrine{
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    bottom: 0;   
+}
+
+.about-me-text{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.nav-links{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.internships{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient( black, rgb(173,220,251));
+}
+
+.internships-header{
+    position: absolute;
+    left:50%;
+    margin-top: 8%;
+    transform: translateX(-50%);
+
+}
+.internships-text{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15%;
+    font-size: 20px;
+}
+.first-row{
+    margin-top: 60%;
+}
+.intern-desc{
+    list-style: none;
+}
+
